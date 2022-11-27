@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Communist|Party|Of China|100th|Celebrate|hundred years|#rectangle|#countdown 3||');
+      S.UI.simulate('Alan Becker|AVM#30|THE KING|WILL|COME OUT|ON 12 04|#rectangle|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
