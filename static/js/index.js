@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Alan Becker|AVM#30|THE KING|WILL|COME OUT|ON 12 04|#rectangle|#countdown 3||');
+      S.UI.simulate('高中三年|其实两年|啥也没干|这也不抽象呀|不管了|还是显示时间吧|#countdown 3|#time||');
     }
 
     S.Drawing.loop(function () {
